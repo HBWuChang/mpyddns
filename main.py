@@ -103,7 +103,6 @@ def 更新dns(zoneid, id, 新ip):
         machine.reset()
         # return False
 def 循环():
-    global 上次ip
     global 检查延迟
     ip = 当前ip()
     上次ip = ip
