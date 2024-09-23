@@ -7,10 +7,10 @@ import _thread
 import urequests
 
 定时重启时间 = 3600
-ssid = "**********"
-passwd = "************"
-ipv4域名 = "***.*******.***"
-token = "****************************************"
+ssid = "**********"#你的2.4Gwifi名称
+passwd = "************"#你的2.4Gwifi密码
+ipv4域名 = "***.*******.***"#要更新的域名
+token = "****************************************"#cloud flare的token 创建令牌->编辑区域 DNS (使用模板)》https://dash.cloudflare.com/profile/api-tokens
 检查延迟 = 60
 
 def connectWiFi():
